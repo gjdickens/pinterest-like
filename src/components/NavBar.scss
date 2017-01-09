@@ -1,0 +1,22 @@
+@import 'Layout';
+
+
+.loggedInUser {
+  text-align: center;
+  min-width: 100px;
+}
+
+
+#mainNav {
+  background-color: $color5;
+  color: white;
+
+  .navButton {
+    background-color: $color2;
+    &:hover {
+      background-color: $color1;
+    }
+  }
+
+
+}

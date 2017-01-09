@@ -1,0 +1,69 @@
+@import 'Layout';
+
+
+
+
+.jumbo {
+  background-color: $color4 !important;
+  color: white !important;
+}
+
+.well {
+  background-color: $color3 !important;
+  color: white;
+  .card {
+    color: black;
+    background-color: $color2;
+  }
+
+  a {
+    color: white;
+  }
+
+  button {
+    background-color: $color2;
+    border-color: white;
+    color: black;
+    &:hover {
+      background-color: $color1;
+    }
+  }
+}
+
+button {
+  background-color: $color2;
+  &:hover {
+    background-color: $color1;
+  }
+}
+
+.modal-header {
+  background-color: $color5;
+  color: white;
+}
+
+.modal-body {
+  background-color: $color3;
+  color: white;
+  button {
+    background-color: $color2;
+    &:hover {
+      background-color: $color1;
+    }
+  }
+}
+
+.modal-footer {
+  background-color: $color3;
+  color: white;
+  button {
+    background-color: $color2;
+    &:hover {
+      background-color: $color1;
+    }
+  }
+}
+
+.gallery-card {
+  background-color: white;
+}
