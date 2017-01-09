@@ -80,7 +80,7 @@ app.use(session({
 
 const twitterClientId = process.env.TWITTER_CLIENT;
 const twitterClientSecret = process.env.TWITTER_SECRET;
-const twitterCallback = 'http://localhost:3000/auth/twitter/callback';
+const twitterCallback = 'https://gj-pinterest-like.herokuapp.com/auth/twitter/callback';
 
 // passport config
 Passport.use(new LocalStrategy(Account.authenticate()));
